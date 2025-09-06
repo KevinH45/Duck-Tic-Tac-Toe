@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.top-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.statistics {
+  width: 25%;
+}
