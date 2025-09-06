@@ -40,4 +40,3 @@ function Cell({ row, col, value, duck, handleCellClick, moveDuck, gameOver }) {
 }
 
 export default Cell;
-``
